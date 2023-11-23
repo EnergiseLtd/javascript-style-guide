@@ -1,0 +1,22 @@
+module.exports = {
+  ECMA_VERSION: 2022,
+  JAVASCRIPT_FILES: ['*.js?(x)', '*.cjs', '*.mjs'],
+  NEXT_FILES: [
+    '**/app/**/apple-icon.@(j|t)s?(x)',
+    '**/app/**/default.@(j|t)s?(x)',
+    '**/app/**/error.@(j|t)s?(x)',
+    '**/app/**/icon.@(j|t)s?(x)',
+    '**/app/**/layout.@(j|t)s?(x)',
+    '**/app/**/loading.@(j|t)s?(x)',
+    '**/app/**/manifest.@(j|t)s?(x)',
+    '**/middleware.@(j|t)s?(x)',
+    '**/app/**/not-found.@(j|t)s?(x)',
+    '**/app/**/opengraph-image.@(j|t)s?(x)',
+    '**/app/**/page.@(j|t)s?(x)',
+    '**/app/**/robots.@(j|t)s?(x)',
+    '**/app/**/sitemap.@(j|t)s?(x)',
+    '**/app/**/template.@(j|t)s?(x)',
+    '**/app/**/twitter-image.@(j|t)s?(x)',
+  ],
+  TYPESCRIPT_FILES: ['*.ts?(x)'],
+};
