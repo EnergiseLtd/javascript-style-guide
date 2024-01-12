@@ -1,4 +1,4 @@
-const { ECMA_VERSION, JAVASCRIPT_FILES } = require('./constants');
+const { ECMA_VERSION, JAVASCRIPT_FILES, CONFIG_FILES } = require('./constants');
 
 // See: https://github.com/eslint/eslint/issues/3458
 require('@rushstack/eslint-patch/modern-module-resolution');
@@ -43,6 +43,12 @@ module.exports = {
       parser: '@babel/eslint-parser',
       parserOptions: {
         requireConfigFile: false,
+      },
+    },
+    {
+      files: CONFIG_FILES,
+      rules: {
+        'import/no-default-export': 'off',
       },
     },
   ],
