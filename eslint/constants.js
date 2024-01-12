@@ -1,5 +1,6 @@
 module.exports = {
   ECMA_VERSION: 2022,
+  CONFIG_FILES: ['*.config.?(c|m)@(j|t)s?(x)', '*rc.?(c|m)@(j|t)s?(x)'],
   JAVASCRIPT_FILES: ['*.js?(x)', '*.cjs', '*.mjs'],
   NEXT_FILES: [
     '**/app/**/apple-icon.@(j|t)s?(x)',
